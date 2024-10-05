@@ -488,8 +488,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 .social-media-group-footer {
   position: relative;
-  /* text-align: center; */
-  margin-right: 500px;
 }
 .bas-prg {
   display: flex;
@@ -546,31 +544,57 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   transition-property: color;
 }
 /* svg hover  bitiş */
-.modal{
+
+.subscribe-inp-btn {
+  display: flex;
+}
+.footer-email {
+  display: flex;
+  width: 264px;
+  top: 140px;
+  left: 828px;
+  border-radius: 4px;
+  border: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.subscribe-hbas {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+.footer-btn {
+  width: 165px;
+  height: 40px;
+  top: 8px;
+  right: 24px;
+  bottom: 8px;
+  left: 24px;
+  gap: 16px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  align-items: center;
+  margin-left: 10px;
+  display: flex;
+}
+
+.modal {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  
-
 }
 .form {
-/* deneme çalışma
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  z-index: 1000; 
-  background-color: #fcfcfc; 
-  padding: 20px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
-  border-radius: 4px; 
-flex-direction: column;
-border: 1px solid #212121;
-gap: 12px; */
-
-
-   position: absolute;
-  background-color:  #fcfcfc;
+  position: absolute;
+  background-color: #fcfcfc;
   flex-direction: column;
   display: flex;
   width: 408px;
@@ -582,16 +606,37 @@ gap: 12px; */
   border: 1px solid #212121;
   padding: 8px;
   padding-top: 90px;
-} 
-
+}
 
 .form-input {
   padding: 4px;
   color: #212121;
+  border: 1px solid;
+  border-radius: 4px;
+  padding-left: 32px;
+  outline: none;
+}
+
+.form-input:focus {
+ 
+  border-color:blue;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-textarea {
+  padding: 4px;
+  color: #212121;
   border: 1px solid #212121;
   border-radius: 4px;
-  
+  padding-left: 10px;
+  outline: none;
 }
+
+.form-textarea:focus {
+  border-color: #2196f3;
+  transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .form-label {
   display: flex;
   flex-direction: column;
@@ -600,6 +645,11 @@ gap: 12px; */
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 4%;
+  outline: none;
+}
+.form-label:focus {
+  color: #2196f3;
+  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-baslik {
   width: 360px;
@@ -648,26 +698,39 @@ gap: 12px; */
   margin: auto;
   border: none;
 }
-.textarea::placeholder:{
-  color: #2E2F4266;
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 4%;
+.textarea::placeholder: {
+  color: #2e2f4266;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 4%;
 }
-.close-icon{
-  top:5px;
+.close-icon {
+  top: 5px;
   right: 5px;
+  position: absolute;
+  cursor: pointer;
 }
-.person-icon{
-  top:155px;
+
+.person-icon {
+  top: 155px;
   left: 15px;
 }
-.phone-icon{
-  top:230px;
+.phone-icon {
+  top: 230px;
   left: 15px;
 }
-.email-icon{
-  top:295px;
+.email-icon {
+  top: 295px;
   left: 15px;
+}
+.send-icon {
+  position: sticky;
+  margin-top: 5px;
+  top: 10;
+  right: 50px;
+}
+.subs-span {
+  text-align: center;
+  padding-left: 25px;
 }
