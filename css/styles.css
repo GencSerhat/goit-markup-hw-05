@@ -586,6 +586,10 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   margin-left: 10px;
   display: flex;
 }
+.footer-btn:hover{
+  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal {
   position: absolute;
@@ -703,7 +707,12 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   margin: auto;
   border: none;
 }
-.textarea::placeholder: {
+.form-btn:hover{
+  background-color: #404bbf;
+  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea::placeholder {
   color: #2e2f4266;
   font-size: 12px;
   font-weight: 400;
