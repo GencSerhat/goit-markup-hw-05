@@ -585,6 +585,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   align-items: center;
   margin-left: 10px;
   display: flex;
+  border:none;
 }
 .footer-btn:hover{
   background-color: #404bbf;
@@ -592,10 +593,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .modal {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+  position: fixed;
   display: none;
+  z-index: 999;
 }
 .form {
   position: absolute;
@@ -720,23 +720,24 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 4%;
 }
 .close-icon {
-  top: 5px;
+  top: -50px;
   right: 5px;
   position: absolute;
   cursor: pointer;
+  width: 24px;
 }
 
 .person-icon {
-  top: 155px;
-  left: 15px;
+ width:24px;
+ padding-top:3px;
 }
 .phone-icon {
-  top: 230px;
-  left: 15px;
+  top: 165px;
+ width:24px;
 }
 .email-icon {
-  top: 295px;
-  left: 15px;
+  top: 235px;
+ width: 24px;
 }
 .send-icon {
   position: sticky;
@@ -747,4 +748,18 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .subs-span {
   text-align: center;
   padding-left: 25px;
+}
+
+.modal-background{
+ 
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 999; 
+}
+.modal-background.is-open{
+    display: block;
+  }
 }

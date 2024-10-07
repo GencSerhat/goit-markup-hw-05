@@ -380,62 +380,61 @@
 
     <!-- SVG Dosyaları Bitiş  -->
 
-    <header class="head-main">
-      <div class="container container-header-main">
-        <nav class="head-nav">
-          <a class="head-href" href="#"
-            >WEB<span class="span-href">STUDIO</span></a
-          >
-          <ul class="main-menu-list">
-            <li class="header-list-menu">
-              <a class="main-menu-list-studio main-menu-list-a" href="#"
-                >Studio</a
-              >
-            </li>
-            <li class="header-list-menu">
-              <a class="main-menu-list-a" href="#">Portfolio</a>
-            </li>
-            <li class="header-list-menu">
-              <a class="main-menu-list-a" href="#">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="adres-list-first">
-          <ul class="adres-list">
-            <li>
-              <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-
-    <main>
+    <div class="modal-background is open">
+      <header class="head-main">
+        <div class="container container-header-main">
+          <nav class="head-nav">
+            <a class="head-href" href="#"
+              >WEB<span class="span-href">STUDIO</span></a
+            >
+            <ul class="main-menu-list">
+              <li class="header-list-menu">
+                <a class="main-menu-list-studio main-menu-list-a" href="#"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-list-menu">
+                <a class="main-menu-list-a" href="#">Portfolio</a>
+              </li>
+              <li class="header-list-menu">
+                <a class="main-menu-list-a" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="adres-list-first">
+            <ul class="adres-list">
+              <li>
+                <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </header>
       <div class="modal is-open">
         <form action="/SendPerson" class="form" name="form">
-          <svg width="24px" height="24px" class="close-icon">
-            <use href="#close"></use>
+          <svg class="close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
 
           <label for="" class="form-baslik"
             >Leave your contacts and we will call you back</label
           >
           <label for="name" class="form-label">Name </label>
-          <svg width="24px" height="24px" class="person-icon">
-            <use href="#person"></use>
+          <svg class="person-icon">
+            <use href="./images/icons.svg#icon-person"></use>
           </svg>
           <input type="text" name="name" id="name" class="form-input" />
           <label for="phone" class="form-label">Phone </label>
-          <svg width="24px" height="24px" class="phone-icon">
-            <use href="#phone"></use>
+          <svg class="phone-icon">
+            <use href="./images/icons.svg#icon-phone"></use>
           </svg>
           <input type="phone" name="phone" id="phone" class="form-input" />
           <label for="eposta" class="form-label">Email</label>
-          <svg width="24px" height="24px" class="email-icon">
-            <use href="#email"></use>
+          <svg class="email-icon">
+            <use href="./images/icons.svg#icon-email"></use>
           </svg>
           <input
             type="email"
@@ -476,6 +475,11 @@
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
+    </div>
+   
+
+    <main>
+  
 
       <section class="container-first-section">
         <div class="container">
