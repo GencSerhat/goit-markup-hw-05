@@ -400,6 +400,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 /*Ödev 4 hover gölge efekti başlangıç */
+.our-img-li:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .our-img-li:hover .kaplama-metin {
   opacity: 1;
   transition: 250ms;
@@ -442,8 +445,14 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .kaplama-metin p {
-  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
   padding-top: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 /* OUR PORTFOİLO BİTİŞ*/
 
@@ -525,14 +534,27 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-icon {
   width: 40px;
   height: 40px;
-  fill: #4d5ae5;
+  --color2: #4d5ae5;
 }
 .social-icon:hover {
-  fill: #31d0aa;
+  --color2: #31d0aa;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon:focus {
-  fill: #31d0aa;
+  --color2: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-svg{
+  width: 40px;
+  height: 40px;
+  --color2: #4d5ae5;
+}
+.icon-svg:hover{
+  --color2: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-svg:focus {
+  --color2: #31d0aa;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* svg hover  bitiş */
@@ -583,7 +605,10 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.send-icon{
+  width: 24px;
+  height: 24px;
+}
 .modal {
   position: fixed;
   display: none;
