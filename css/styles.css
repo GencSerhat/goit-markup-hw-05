@@ -348,11 +348,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
 
-  /* box-shadow: 0px 1px 1px 0px #2E2F4229;
-  
-  box-shadow: 0px 1px 6px 0px #2E2F4214; */
 
-  /* box-shadow: 3px 3px 4px #000; ödev 4 gölge efekti  */
+
+  /*  ödev 4 gölge efekti  */
 }
 .list-one-person {
   padding: 32px 0;
@@ -494,9 +492,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   align-items: center;
   justify-content: space-between;
 }
-/* .div{
-  display: block;
-} */
+
 .social-media-group-footer-hbas {
   font-weight: 500;
   font-size: 16px;
@@ -511,7 +507,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-media-group {
   display: flex;
   justify-content: center;
-  /* margin-top: 30px; */
+  
 }
 .li-icon {
   padding: 10px;
@@ -519,29 +515,25 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .li-icon-footer {
   padding-right: 15px;
 }
-.link-icon {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-}
-.li-icon:hover {
-  fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-}
-.icon-svg {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
-}
-.icon-svg:hover {
-  --color1: #31d0aa;
-  transition-property: color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.icon:hover {
+
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+}
+.social-icon:hover {
   fill: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon:focus {
+  fill: #31d0aa;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* svg hover  bitiş */
 
