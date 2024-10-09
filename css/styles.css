@@ -633,7 +633,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border: 1px solid #212121;
   padding: 8px;
   padding-top: 90px;
-  
 }
 .modal.is-open {
   display: block;
@@ -647,7 +646,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   padding-left: 32px;
   outline: none;
   width: 360px;
-   margin-left: 12px;
+  margin-left: 12px;
 }
 
 .form-input:focus {
@@ -655,7 +654,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input::placeholder {
- 
   color: #2e2f4266;
   font-size: 12px;
   font-weight: 400;
@@ -690,7 +688,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 4%;
   outline: none;
   margin-left: 12px;
-  
 }
 .form-label:focus {
   color: #2196f3;
@@ -756,15 +753,14 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 4%;
 }
 .close-icon {
-  top: -50px;
-  right: 5px;
+  top: -30px;
+  right: 30px;
   position: absolute;
   cursor: pointer;
   width: 24px;
 }
 
 .person-icon {
-  
   width: 48px;
   padding-top: 3px;
   --color2: #000000;
@@ -774,7 +770,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   top: 165px;
   width: 48px;
   padding-left: 20px;
-  padding-right: 5px;;
+  padding-right: 5px;
 }
 .email-icon {
   top: 235px;
