@@ -690,6 +690,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   outline: none;
   margin-left: 15px;
   cursor: pointer;
+  z-index: 999;
 }
 .form-label:focus {
   color: #2196f3;
@@ -714,7 +715,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   display: inline-block;
   vertical-align: middle;
   padding-left: 10px;
-  color: #757575;
+  
 }
 .cekbox-span {
   font-weight: 400;
