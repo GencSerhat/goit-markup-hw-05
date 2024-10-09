@@ -704,6 +704,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 2%;
   text-align: center;
   color: #2e2f42;
+  margin-left: 15px;
 }
 .form-label-cekbox {
   font-weight: 400;
