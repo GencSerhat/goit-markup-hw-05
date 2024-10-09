@@ -348,8 +348,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
 
-
-
   /*  ödev 4 gölge efekti  */
 }
 .list-one-person {
@@ -400,7 +398,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 /*Ödev 4 hover gölge efekti başlangıç */
-.our-img-li:hover{
+.our-img-li:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .our-img-li:hover .kaplama-metin {
@@ -516,7 +514,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .social-media-group {
   display: flex;
   justify-content: center;
-  
 }
 .li-icon {
   padding: 10px;
@@ -524,8 +521,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .li-icon-footer {
   padding-right: 15px;
 }
-
-
 
 .icon {
   width: 64px;
@@ -544,12 +539,12 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   --color2: #31d0aa;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-svg{
+.icon-svg {
   width: 40px;
   height: 40px;
   --color2: #4d5ae5;
 }
-.icon-svg:hover{
+.icon-svg:hover {
   --color2: #31d0aa;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -599,23 +594,23 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   align-items: center;
   margin-left: 10px;
   display: flex;
-  border:none;
+  border: none;
 }
-.footer-btn:hover{
+.footer-btn:hover {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.send-icon{
+.send-icon {
   width: 24px;
   height: 24px;
 }
-.modal-backdrop{
+.modal-backdrop {
   position: fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: 999;
 }
 .modal {
@@ -623,7 +618,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   display: none;
   z-index: 999;
   top: 35px;
- 
 }
 .form {
   position: absolute;
@@ -641,7 +635,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   padding-top: 90px;
   
 }
-.modal.is-open{
+.modal.is-open {
   display: block;
 }
 
@@ -652,12 +646,22 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-radius: 4px;
   padding-left: 32px;
   outline: none;
+  width: 360px;
+   margin-left: 12px;
 }
 
 .form-input:focus {
- 
-  border-color:blue;
+  border-color: blue;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input::placeholder {
+ 
+  color: #2e2f4266;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 4%;
+  padding-bottom: 2px;
 }
 
 .form-textarea {
@@ -667,11 +671,13 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-radius: 4px;
   padding-left: 10px;
   outline: none;
+  margin-left: 12px;
+  width: 360px;
 }
 
 .form-textarea:focus {
   border-color: #2196f3;
-  transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label {
@@ -683,10 +689,12 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   line-height: 14px;
   letter-spacing: 4%;
   outline: none;
+  margin-left: 12px;
+  
 }
 .form-label:focus {
   color: #2196f3;
-  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-baslik {
   width: 360px;
@@ -735,9 +743,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   margin: auto;
   border: none;
 }
-.form-btn:hover{
+.form-btn:hover {
   background-color: #404bbf;
-  
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea::placeholder {
@@ -756,16 +764,23 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .person-icon {
- width:24px;
- padding-top:3px;
+  
+  width: 48px;
+  padding-top: 3px;
+  --color2: #000000;
+  padding-left: 20px;
 }
 .phone-icon {
   top: 165px;
- width:24px;
+  width: 48px;
+  padding-left: 20px;
+  padding-right: 5px;;
 }
 .email-icon {
   top: 235px;
- width: 24px;
+  width: 48px;
+  padding-left: 20px;
+  padding-right: 5px;
 }
 .send-icon {
   position: sticky;
@@ -778,16 +793,24 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   padding-left: 25px;
 }
 
-.modal-background{
- 
+.modal-background {
   top: 0;
   left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  background-color: rgba(0, 0, 0, 0.5); 
-  z-index: 999; 
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
-.modal-background.is-open{
-    display: block;
-  }
+.modal-background.is-open {
+  display: block;
+}
+
+.form-input:focus + .person-icon {
+  fill: #4d5ae5;
+}
+.form-input:focus + .email-icon {
+  fill: #4d5ae5;
+}
+.form-input:focus + .phone-icon {
+  fill: #4d5ae5;
 }

@@ -28,42 +28,40 @@
   </head>
 
   <body>
-   
-
     <!-- <div class="modal-background is open"> -->
-      <header class="head-main">
-        <div class="container container-header-main">
-          <nav class="head-nav">
-            <a class="head-href" href="#"
-              >WEB<span class="span-href">STUDIO</span></a
-            >
-            <ul class="main-menu-list">
-              <li class="header-list-menu">
-                <a class="main-menu-list-studio main-menu-list-a" href="#"
-                  >Studio</a
-                >
-              </li>
-              <li class="header-list-menu">
-                <a class="main-menu-list-a" href="#">Portfolio</a>
-              </li>
-              <li class="header-list-menu">
-                <a class="main-menu-list-a" href="#">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="adres-list-first">
-            <ul class="adres-list">
-              <li>
-                <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
-              </li>
-              <li>
-                <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
-      </header>
-      <div class="modal-backdrop">
+    <header class="head-main">
+      <div class="container container-header-main">
+        <nav class="head-nav">
+          <a class="head-href" href="#"
+            >WEB<span class="span-href">STUDIO</span></a
+          >
+          <ul class="main-menu-list">
+            <li class="header-list-menu">
+              <a class="main-menu-list-studio main-menu-list-a" href="#"
+                >Studio</a
+              >
+            </li>
+            <li class="header-list-menu">
+              <a class="main-menu-list-a" href="#">Portfolio</a>
+            </li>
+            <li class="header-list-menu">
+              <a class="main-menu-list-a" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="adres-list-first">
+          <ul class="adres-list">
+            <li>
+              <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <div class="modal-backdrop">
       <div class="modal is-open">
         <form action="/SendPerson" class="form" name="form">
           <svg class="close-icon">
@@ -73,20 +71,26 @@
           <label for="" class="form-baslik"
             >Leave your contacts and we will call you back</label
           >
+          
+
           <label for="name" class="form-label">Name </label>
+         
+          <input type="text" name="name" id="name" class="form-input" />
           <svg class="person-icon">
             <use href="./images/icons.svg#icon-person"></use>
           </svg>
-          <input type="text" name="name" id="name" class="form-input" />
+       
+       
+       
           <label for="phone" class="form-label">Phone </label>
+          
+          <input type="phone" name="phone" id="phone" class="form-input" />
           <svg class="phone-icon">
             <use href="./images/icons.svg#icon-phone"></use>
           </svg>
-          <input type="phone" name="phone" id="phone" class="form-input" />
+          
           <label for="eposta" class="form-label">Email</label>
-          <svg class="email-icon">
-            <use href="./images/icons.svg#icon-email"></use>
-          </svg>
+         
           <input
             type="email"
             name="eposta"
@@ -94,6 +98,9 @@
             class="form-input"
             placeholder="E-mail"
           />
+          <svg class="email-icon">
+            <use href="./images/icons.svg#icon-email"></use>
+          </svg>
           <label for="comment" class="form-label">Comment </label>
           <textarea
             name="comment"
@@ -119,14 +126,14 @@
         </form>
       </div>
     </div>
-      <section class="efective-head">
-        <div class="container container-efective">
-          <h1 class="efective-hbas">
-            Effective Solutions <br />for Your Business
-          </h1>
-          <button class="button" type="button">Order Service</button>
-        </div>
-      </section>
+    <section class="efective-head">
+      <div class="container container-efective">
+        <h1 class="efective-hbas">
+          Effective Solutions <br />for Your Business
+        </h1>
+        <button class="button" type="button">Order Service</button>
+      </div>
+    </section>
     <!-- </div> -->
 
     <main>
@@ -463,32 +470,24 @@
             <h3 class="social-media-group-footer-hbas">Social Media</h3>
             <ul class="social-media-group">
               <li class="li-icon-footer">
-                
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
-                
               </li>
               <li class="li-icon-footer">
-                
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
-                
               </li>
               <li class="li-icon-footer">
-                
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
-                
               </li>
               <li class="li-icon-footer">
-                
                 <svg class="social-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
-               
               </li>
             </ul>
           </div>
@@ -501,7 +500,7 @@
                 class="footer-email"
                 placeholder="E-mail"
               />
-             
+
               <button type="submit" class="footer-btn">
                 <span class="subs-span">Subscribe</span>
                 <i class="footer-btn-i"
